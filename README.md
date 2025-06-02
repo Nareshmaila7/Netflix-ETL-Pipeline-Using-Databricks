@@ -6,6 +6,11 @@ This project is designed to ingest, transform, and analyze Netflix data using **
 
 📁 Project Architecture
 
+![Project Architecture](https://github.com/user-attachments/assets/c228fcda-30a3-479e-9041-798f4f0b551f)
+
+
+
+
 **Medallion Architecture Layers:**
 
 - **Bronze Layer**: Raw data is ingested from GitHub using Azure Data Factory with dynamic parameterization and validation, then stored in ADLS with minimal to no transformation.
